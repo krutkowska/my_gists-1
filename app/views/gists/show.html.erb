@@ -1,0 +1,6 @@
+<%= raw Pygments.highlight(@gist.snippet, lexer: @gist.lexer) %>
+<p>
+  <b>Description:</b> <%= @gist.description %>
+</p>
+<%= link_to 'Edit', edit_gist_path(@gist) %> |
+<%= link_to 'Back', gists_path %>
