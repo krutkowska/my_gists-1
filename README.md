@@ -29,6 +29,7 @@ heroku create
   Git remote heroku added
 ```
 - Wdrażamy aplikację na Heroku:
+
 ```
 git push heroku master
 ```
