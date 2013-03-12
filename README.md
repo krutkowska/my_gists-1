@@ -9,3 +9,10 @@ TODO:
    mógł coś dodać/zmienić
 5. Poprawić layout/wygląd aplikacji, np.
    korzystając z Bootstrapa.
+
+# Wdrażanie aplikacji na Heroku
+
+
+1. Zakładanie konta na [Heroku](http://www.heroku.com/).
+1. Instalujemy Heroku [Toolbeit](https://toolbelt.heroku.com/).
+1. Logujemy się na Heroku: `heroku login`
