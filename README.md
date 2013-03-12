@@ -1,6 +1,6 @@
 # Dzielimy się kawałkami kodu
 
-TODO:
+Różne rzeczy do poprawki/implementacji:
 
 1. Poprawić widok *app/views/gists/index.html.erb*.
 2. Paginację strony */gists*.
@@ -10,8 +10,11 @@ TODO:
 5. Poprawić layout/wygląd aplikacji, np.
    korzystając z Bootstrapa.
 
+
 # Wdrażanie aplikacji na Heroku
 
+Na razie na Heroku mozna wdrażać tylko aplikacje
+Rails 3 i Ruby 1.9.3.
 
 - Zakładanie konta na [Heroku](http://www.heroku.com/).
 - Instalujemy Heroku [Toolbeit](https://toolbelt.heroku.com/).
@@ -33,5 +36,3 @@ heroku create
 ```
 git push heroku master
 ```
-
-### Uwagi
