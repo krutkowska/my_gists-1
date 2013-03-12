@@ -36,3 +36,8 @@ heroku create
 ```
 git push heroku master
 ```
+
+
+# Ściągawki z Gita
+
+* Scott Chacon, [Git](http://git-scm.com/)
