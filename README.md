@@ -13,6 +13,22 @@ TODO:
 # Wdrażanie aplikacji na Heroku
 
 
-1. Zakładanie konta na [Heroku](http://www.heroku.com/).
-1. Instalujemy Heroku [Toolbeit](https://toolbelt.heroku.com/).
-1. Logujemy się na Heroku: `heroku login`
+- Zakładanie konta na [Heroku](http://www.heroku.com/).
+- Instalujemy Heroku [Toolbeit](https://toolbelt.heroku.com/).
+- Logujemy się na Heroku:
+```
+heroku login
+```
+- Tworzymy nową aplikację na Heroku:
+```
+heroku create
+  Creating frozen-harbor-4549... done, stack is cedar
+  http://frozen-harbor-4549.herokuapp.com/ | git@heroku.com:frozen-harbor-4549.git
+  Git remote heroku added
+```
+- Wdrażamy aplikację na Heroku:
+```
+git push heroku master
+```
+
+### Uwagi
