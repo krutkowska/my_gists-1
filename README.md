@@ -27,8 +27,8 @@ heroku login
 
 ```
 heroku create
-  Creating frozen-harbor-4549... done, stack is cedar
-  http://frozen-harbor-4549.herokuapp.com/ | git@heroku.com:frozen-harbor-4549.git
+  Creating radiant-springs-4936... done, stack is cedar
+  http://radiant-springs-4936.herokuapp.com/ | git@heroku.com:radiant-springs-4936.git
   Git remote heroku added
 ```
 - Wdrażamy aplikację na Heroku:
@@ -36,8 +36,9 @@ heroku create
 ```
 git push heroku master
 ```
+- Tworzymy bazę na gisty na Heroku:
 
-
-# Ściągawki z Gita
-
-* Scott Chacon, [Git](http://git-scm.com/)
+```
+heroku run rake db:create
+heroku run rake db:migrate
+```
