@@ -16,10 +16,12 @@ TODO:
 - Zakładanie konta na [Heroku](http://www.heroku.com/).
 - Instalujemy Heroku [Toolbeit](https://toolbelt.heroku.com/).
 - Logujemy się na Heroku:
+
 ```
 heroku login
 ```
 - Tworzymy nową aplikację na Heroku:
+
 ```
 heroku create
   Creating frozen-harbor-4549... done, stack is cedar
